@@ -1,14 +1,22 @@
 # instaparse-demo
 
-A Clojure library designed to ... well, that part is up to you.
+A short demo of
+[instaparse](https://github.com/Engelberg/instaparse)
+inspired by [this](http://gigasquidsoftware.com/wordpress/?p=689) blog post.
 
 ## Usage
 
-FIXME
-
-## License
-
-Copyright © 2013 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+  ➜  instaparse-demo git:(master) lein run
+  Boo yah!
+  Boo> 1
+  1
+  Boo> 2
+  2
+  Boo> 1 2 3
+  [1 2 3]
+  Boo> 1 + 2
+  3
+  Boo> 1 + 2 - 3
+  0
+  Boo> 3 * 4 / 3
+  4
